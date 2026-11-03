@@ -34,3 +34,12 @@ Pour développer en local : `python3 -m http.server 8000` depuis ce dossier, pui
 ## Architecture
 
 `index.html` (structure), `style.css` (design), `app.js` (interface), `patterns.js` (moteur), `storage.js` (sauvegarde), `sw.js` (cache), `manifest.webmanifest` (PWA).
+
+
+## Correctif v0.1.1
+
+- Zone des paroles confinée au centre : commandes et progression restent toujours visibles sur iPhone.
+- Bouton « Ajouter mes paroles » sur l’exemple initial.
+- Bibliothèque : sélection, édition, suppression et sauvegarde locale des chansons.
+- Après publication, recharger la page (ou fermer/réouvrir la PWA) pour mettre à jour le cache.
+- Les paroles restent dans le navigateur de cet appareil ; aucune synchronisation entre appareils.
