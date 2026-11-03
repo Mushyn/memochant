@@ -1,5 +1,5 @@
-// MémoChant V0.1.6 — cache-first, activation volontaire des mises à jour.
-const CACHE = 'memochant-v0.1.6';
+// MémoChant V0.1.8 — cache-first, activation volontaire des mises à jour.
+const CACHE = 'memochant-v0.1.8';
 const ASSETS = ['./','./index.html','./style.css','./app.js','./patterns.js','./storage.js','./songs.js','./updates.js','./manifest.webmanifest','./icon.svg'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS.map(url => new Request(url,{cache:'reload'})))));

@@ -43,3 +43,6 @@ body{display:flex;flex-direction:column;min-height:0}
 
 /* V0.1.5 — étoiles douces, sans badges ni effets intrusifs */
 .stars-panel{margin-top:12px}.stars-panel[hidden]{display:none}.star-caption{display:flex;gap:12px;align-items:center;font-size:12px;color:#7e817e}.star-caption span{font-variant-numeric:tabular-nums}.star-buttons{display:flex;gap:8px;margin-top:5px}.mastery-star{border:0;background:transparent;color:#c9caca;font-size:27px;line-height:1.2;padding:2px 4px;min-width:34px;min-height:36px;cursor:pointer}.mastery-star.earned{color:#dcae48}.mastery-star:focus-visible{outline:2px solid #dcae48;outline-offset:2px;border-radius:7px}.star-hint{font-size:11px;color:#9a9c9b;margin:3px 0 0}.library-stars{color:#d2a644!important;letter-spacing:2px;font-size:15px!important}
+
+/* Conserver les retours à la ligne des unités de 2 ou 3 vers. */
+.lyric-line{white-space:pre-line}
