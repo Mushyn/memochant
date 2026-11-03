@@ -32,7 +32,7 @@ body{display:flex;flex-direction:column;min-height:0}
 .update-banner{position:fixed;z-index:1000;left:12px;right:12px;bottom:calc(14px + env(safe-area-inset-bottom));display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:10px;padding:12px;border-radius:16px;background:#f0f2ef;color:#303236;font-size:13px;box-shadow:0 4px 20px #00000012}
 .update-banner button{font-size:12px;padding:9px 12px;min-height:36px}
 
-/* V0.1.4 — accueil orienté import et défilement fluide des passages */
+/* V0.1.5 — accueil orienté import et défilement fluide des passages */
 [hidden]{display:none!important}
 .welcome{flex:1;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:18px;min-height:0;padding:12px 4px 54px}
 .welcome h1{font-size:clamp(26px,6vw,38px);font-weight:450;line-height:1.22;letter-spacing:-1px;max-width:390px;margin:0}
@@ -40,3 +40,6 @@ body{display:flex;flex-direction:column;min-height:0}
 .welcome .welcome-note{font-size:12px;color:#a2a5a5}
 .lyrics{padding-top:36%;padding-bottom:50%}
 @media(max-width:500px){.lyrics{padding-top:36%;padding-bottom:50%}.welcome{padding-bottom:25px}}
+
+/* V0.1.5 — étoiles douces, sans badges ni effets intrusifs */
+.stars-panel{margin-top:12px}.stars-panel[hidden]{display:none}.star-caption{display:flex;gap:12px;align-items:center;font-size:12px;color:#7e817e}.star-caption span{font-variant-numeric:tabular-nums}.star-buttons{display:flex;gap:8px;margin-top:5px}.mastery-star{border:0;background:transparent;color:#c9caca;font-size:27px;line-height:1.2;padding:2px 4px;min-width:34px;min-height:36px;cursor:pointer}.mastery-star.earned{color:#dcae48}.mastery-star:focus-visible{outline:2px solid #dcae48;outline-offset:2px;border-radius:7px}.star-hint{font-size:11px;color:#9a9c9b;margin:3px 0 0}.library-stars{color:#d2a644!important;letter-spacing:2px;font-size:15px!important}
